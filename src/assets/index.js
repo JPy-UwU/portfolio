@@ -30,6 +30,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import teevibe from "./teevibe.png";
+import weather from "./weather.png";
+import trello from "./trello.jpg";
 
 export {
   logo,
@@ -61,4 +64,7 @@ export {
   jobit,
   tripguide,
   docker,
+  trello,
+  weather,
+  teevibe,
 };

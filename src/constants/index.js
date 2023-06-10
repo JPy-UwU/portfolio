@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   docker,
+  teevibe,
+  weather,
+  trello,
 } from "../assets";
 
 export const navLinks = [
@@ -158,16 +161,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "TeeVibe",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to customize a t-shirt with a logo of their choice or ask AI to get a logo.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "vite",
         color: "green-text-gradient",
       },
       {
@@ -175,50 +178,50 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: teevibe,
+    source_code_link: "https://github.com/JPy-UwU/TeeVibe",
   },
   {
-    name: "Job IT",
+    name: "Weather App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to search for a city and displays weather conditions for that city.",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: weather,
+    source_code_link: "https://github.com/JPy-UwU/Weather-App",
   },
   {
-    name: "Trip Guide",
+    name: "Trello 2.0",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A visually stunning trello clone that works around OpenAI.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "react",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "openai",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: trello,
+    source_code_link: "https://github.com/JPy-UwU/Trello_2.0",
   },
 ];
 
