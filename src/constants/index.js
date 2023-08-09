@@ -26,6 +26,7 @@ import {
   teevibe,
   weather,
   trello,
+  genius,
 } from "../assets";
 
 export const navLinks = [
@@ -182,6 +183,27 @@ const projects = [
     source_code_link: "https://github.com/JPy-UwU/TeeVibe",
   },
   {
+    name: "Genius",
+    description:
+    "A SaaS website that works around OpenAI.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "openai",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: genius,
+    source_code_link: "https://github.com/JPy-UwU/genius",
+  },
+  {
     name: "Weather App",
     description:
       "Web application that enables users to search for a city and displays weather conditions for that city.",
@@ -201,27 +223,6 @@ const projects = [
     ],
     image: weather,
     source_code_link: "https://github.com/JPy-UwU/Weather-App",
-  },
-  {
-    name: "Trello 2.0",
-    description:
-      "A visually stunning trello clone that works around OpenAI.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "react",
-        color: "green-text-gradient",
-      },
-      {
-        name: "openai",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: trello,
-    source_code_link: "https://github.com/JPy-UwU/Trello_2.0",
   },
 ];
 

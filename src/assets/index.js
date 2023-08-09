@@ -33,6 +33,7 @@ import tripguide from "./tripguide.png";
 import teevibe from "./teevibe.png";
 import weather from "./weather.png";
 import trello from "./trello.jpg";
+import genius from "./genius.png"
 
 export {
   logo,
@@ -67,4 +68,5 @@ export {
   trello,
   weather,
   teevibe,
+  genius,
 };
