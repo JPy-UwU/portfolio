@@ -34,6 +34,7 @@ import teevibe from "./teevibe.png";
 import weather from "./weather.png";
 import trello from "./trello.jpg";
 import genius from "./genius.png"
+import learninghub from "./learninghub.png"
 
 export {
   logo,
@@ -69,4 +70,5 @@ export {
   weather,
   teevibe,
   genius,
+  learninghub,
 };

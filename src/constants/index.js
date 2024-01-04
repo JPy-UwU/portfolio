@@ -15,18 +15,11 @@ import {
   git,
   java,
   python,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   docker,
   teevibe,
   weather,
-  trello,
   genius,
+  learninghub,
 } from "../assets";
 
 export const navLinks = [
@@ -202,6 +195,28 @@ const projects = [
     ],
     image: genius,
     source_code_link: "https://github.com/JPy-UwU/genius",
+  },
+  // TODO: update to new projects
+  {
+    name: "Learning Hub",
+    description:
+      "A web plateform for everyone to share, gather knowledge and do much more.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "prisma",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: learninghub,
+    source_code_link: "https://github.com/JPy-UwU/LearningHub",
   },
   {
     name: "Weather App",
