@@ -6,7 +6,7 @@ import SectionWrapper from "../hoc/SectionWrapper"
 import { projects } from "../constants"
 import { fadeIn, textVariant } from "../utils/motion"
 
-const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
+const ProjectCard = ({ index, name, description, tags, image, source_code_link, page_link }) => {
   return (
     <motion.div
       variants={fadeIn("up", "spring", index * 0.5, 0.75)}
@@ -40,7 +40,15 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
         </div>
 
         <div className="mt-5">
-          <h3 className="text-white font-bold text-[24px]">{name}</h3>
+          <div className="flex flex-wrap gap-2 justify-between">
+            <h3 className="text-white font-bold text-[24px]">{name}</h3>
+            <div
+              onClick={() => window.open(page_link, "_blank")}
+              className="w-20 h-10 flex justify-center items-center cursor-pointer font-medium"
+            >
+              Visit
+            </div>
+          </div>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
 

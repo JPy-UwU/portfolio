@@ -174,6 +174,7 @@ const projects = [
     ],
     image: teevibe,
     source_code_link: "https://github.com/JPy-UwU/TeeVibe",
+    page_link: "https://tee-vibe.vercel.app/",
   },
   {
     name: "Genius",
@@ -195,8 +196,8 @@ const projects = [
     ],
     image: genius,
     source_code_link: "https://github.com/JPy-UwU/genius",
+    page_link: "https://genius-one-pearl.vercel.app/",
   },
-  // TODO: update to new projects
   {
     name: "Learning Hub",
     description:
@@ -217,6 +218,7 @@ const projects = [
     ],
     image: learninghub,
     source_code_link: "https://github.com/JPy-UwU/LearningHub",
+    page_link: "https://next-learning-hub.vercel.app/",
   },
   {
     name: "Weather App",
@@ -238,6 +240,7 @@ const projects = [
     ],
     image: weather,
     source_code_link: "https://github.com/JPy-UwU/Weather-App",
+    page_link: "https://jpy-uwu.github.io/Weather-App/",
   },
 ];
 
